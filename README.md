@@ -10,4 +10,10 @@ The hardware model we used is NI USB-6281. One output channel sends the damped s
 # Assesment
 The code will produce a continuously and simultaneously sine wave, and then the signal will be linearly damped until it goes to the zero. after few seconds, the code opens the relay to get the noise from the environment.
 
-![Alt text](file:///Users/maedeh/Downloads/Figure_1.png)
+![Alt text](https://raw.githubusercontent.com/mlavvaf/NIDAQ_damped_signal/main/Figure_1.png)
+
+### The time of each part can be changed.
+
+#### There are two codes. 
+*RW_relay_resistor_test* contains reading and writing callback functions.
+*run_relay_resistor_test* will be used to change the initial condition.
