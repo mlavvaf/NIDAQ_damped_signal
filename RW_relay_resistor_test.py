@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 20 16:55:06 2022
-
-@author: UWTUCANMag
-"""
 
 from nidaqmx.constants import LineGrouping
 import nidaqmx
