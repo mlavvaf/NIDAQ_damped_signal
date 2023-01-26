@@ -1,6 +1,5 @@
 # Run NIDAQ box for perturbation coil tests
-# Derek Fujimoto
-# Oct 2022
+
 
 from RW_relay_resistor_test import NIDAQ_RW
 from RW_relay_resistor_test import relay
